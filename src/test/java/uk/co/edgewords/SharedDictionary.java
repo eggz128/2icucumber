@@ -14,9 +14,8 @@ public class SharedDictionary {
     public Object readDict(String key){
         return sharedMap.get(key);
     }
-
     public boolean containsKey(String key){
-        return sharedMap.containsKey(key);
+        return sharedMap.containsKey(key); //another comment
     }
-
+    //a comment
 }
